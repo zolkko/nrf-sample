@@ -10,17 +10,13 @@ cortex-m = "0.7.3"
 cortex-m-rt = "0.7.0"
 defmt = "0.2.3"
 defmt-rtt = "0.2.0"
+nrf52840-hal = "0.14.0"
+panic-probe = { version = "0.2", features = ["print-defmt"] }
 
 # nrf52840 = "0.2.0"
-
-nrf52840-hal = "0.14.0"
-
-panic-probe = { version = "0.2", features = ["print-rtt"] }
-
 # nrf-hal = { version = "^0.1.0", features = ["52840", "52840-rt"]}
 # nrf-hal-common = "0.14.0"
 # nrf-usbd = "0.1.0"
-
 
 # [features]
 ## set logging levels here

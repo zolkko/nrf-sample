@@ -2,6 +2,12 @@ nRF52840 sample
 ===============
 
 
+First of all you must install the `probe-run` utility.
+```sh
+cargo install probe-run
+```
+
+
 Add the cortex-m4 target.
 
 ```sh
